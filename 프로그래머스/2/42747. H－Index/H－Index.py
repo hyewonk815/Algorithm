@@ -1,3 +1,4 @@
+# enumerate : 인덱스와 값을 동시에 접근
 def solution(citations):
     citations_sorted = sorted(citations, reverse=True)
     for i, citation in enumerate(citations_sorted):
