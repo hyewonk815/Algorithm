@@ -14,7 +14,7 @@ def solution(clothes):
     else:
         for v in dic.values():
             if answer == 0:
-                answer += v+1
+                answer += v+1 # 선택 안 하는 경우가 있기 때문에 +1
             else:
                 answer *= v+1
         return answer - 1
